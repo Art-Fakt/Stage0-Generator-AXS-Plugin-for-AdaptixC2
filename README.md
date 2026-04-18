@@ -1,10 +1,10 @@
-# Stage0 Generator — AdaptixC2 Plugin
+# Stage0 Cradle Generator — AdaptixC2 Plugin
 
 > AXS plugin for AdaptixC2 that encrypts agent payloads and wraps them into ready-to-deploy in-memory cradles with evasion, environment keying, and polymorphic obfuscation.
 
 ## Overview
 
-I wanted to test developping a plugin like CS Agressor Scripts for AdaptixC2 when I'm seeing that the adaptixC2 WIKI is well documented, so here it is...
+I wanted to test developping a plugin like CS Agressor Scripts for AdaptixC2 when I'm seeing that the AdaptixC2 WIKI is well documented, so here it is...
 
 Stage0 Generator takes a raw agent payload (shellcode `.bin` or `.exe`) generated from an AdaptixC2 listener, encrypts it with XOR, and injects it into an external cradle template. The output is a self-contained script (PowerShell, Python, or WSF polyglot) that decrypts and executes the payload entirely in memory at runtime.
 
